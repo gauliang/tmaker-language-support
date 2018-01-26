@@ -1,0 +1,25 @@
+{
+    "name": "tmaker-language-support",
+    "displayName": "Tmaker Language Suppport",
+    "description": "Language support for Tmaker.",
+    "version": "0.0.1",
+    "publisher": "Gauliang",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "html",
+            "aliases": ["HTML","Tmaker"],
+            "extensions": [".tm"]
+        }],
+        "grammars": [{
+            "language": "html",
+            "scopeName": "text.html.basic",
+            "path": "./syntaxes/tm.tmLanguage.json"
+        }]
+    }
+}

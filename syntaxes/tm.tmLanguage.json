@@ -87,7 +87,7 @@
 		},
 		
 		{
-			"begin": "({\\$)(pretitle|title|id|subtitle|url|desc|author|editor|liability|content|source|sourceurl|pubtime|imgurl|mediaurl|currentname|currenturl|mastername|masterurl|keyword|classname|nodeid|classurl|classnotes|currentname|currenturl|mastername|masterurl|subclasscount|articlecount|length|subscriber|attachment|attdesc|atturl|ownertitle|ownerurl)\\b((\\|[\\dYMDhms\\- :]{1,11})|(#[0-9a-zA-Z\\.:/\\-]+))?\\b",
+			"begin": "({\\$)(pretitle|title|id|subtitle|url|desc|author|editor|liability|content|source|sourceurl|pubtime|imgurl|mediaurl|currentname|currenturl|mastername|masterurl|keyword|classname|nodeid|classurl|classnotes|currentname|currenturl|mastername|masterurl|subclasscount|articlecount|length|subscriber|attachment|attdesc|atturl|ownertitle|ownerurl)\\b((\\|[\\dYMDhms\\- :]{1,11})|(#[0-9a-zA-Z\\.:/\\-]+))?\\b(?=})",
 			"beginCaptures": {
 				"1": {
 					"name": "entity.other.attribute-name.html"

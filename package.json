@@ -7,9 +7,12 @@
     "engines": {
         "vscode": "^1.5.0"
     },
+    "repository": "https://github.com/gauliang/tmaker-language-support",
     "categories": [
         "Languages"
     ],
+    "license": "MIT",
+    "icon": "images/icon.png",
     "contributes": {
         "languages": [{
             "id": "html",
